@@ -1,0 +1,11 @@
+create project folder
+mkdir docker-demo
+cd docker-demo
+
+create simple web page
+
+build docker image
+docker build -t myweb:v1.
+
+run docker container
+docker run -d -p 8080:80 myweb:v1
